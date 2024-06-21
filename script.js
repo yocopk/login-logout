@@ -15,6 +15,7 @@ function login() {
     welcome.textContent = "Benvenuto!";
     welcomeNode.appendChild(welcome);
     btnSection.appendChild(logoutBtn);
+    logoutBtn.classList.add("logoutbtn");
   }
 }
 
